@@ -1,0 +1,94 @@
+.user-page {
+    text-align: center;
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.map-container {
+    height: 400px;
+    z-index: 1;
+}
+
+.profile-section {
+    border: 1px solid grey;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    text-align: left;
+}
+
+.profile-section .profile--section--left {
+    border-radius: 10px;
+}
+
+.profile--pic {
+    border-radius: 15px;
+}
+
+.profile-section .profile--section--right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 20px;
+    height: fit-content;
+    margin-bottom: 5px;
+}
+
+.profile-section p {
+    color: white;
+    font-size: 16px;
+}
+
+.name--container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name--container .user--name {
+    margin-right: 10px;
+}
+
+.profile-section .user--username {
+    color: rgb(116, 116, 116);
+    margin-bottom: 15px;
+}
+
+.join--date--container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ph--container, .dob--container, .email--container, .place--container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.place--container {
+    margin-left: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .profile--section--left {
+        display: flex;
+        margin: 5px auto;
+    }
+    .profile--section--right {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

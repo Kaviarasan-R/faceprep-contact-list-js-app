@@ -1,0 +1,27 @@
+.dropdown {
+    position: fixed;
+    z-index: 2;
+    top: 10%;
+    right: 0%;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background: black;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.nav-dropdown-link {
+    margin: 5px 0;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #9c9c9c;
+    font-size: 16px;
+    cursor: pointer;
+}
